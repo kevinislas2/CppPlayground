@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/15__BuilderFacets.dir/Person.cpp.o CMakeFiles/15__BuilderFacets.dir/PersonBuilder.cpp.o CMakeFiles/15__BuilderFacets.dir/main.cpp.o  -o 15__BuilderFacets 

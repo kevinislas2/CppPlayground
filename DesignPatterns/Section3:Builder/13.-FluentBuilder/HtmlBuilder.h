@@ -29,6 +29,7 @@ struct HtmlBuilder
 
     operator HtmlElement() const {return move(root);}
 
+    HtmlBuilder
 };
 
 #endif

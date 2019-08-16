@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="15__BuilderFacets"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="15__BuilderFacets">
+				<Option output="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/15__BuilderFacets" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 15__BuilderFacets"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="15__BuilderFacets/fast">
+				<Option output="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/15__BuilderFacets" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 15__BuilderFacets/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/Person.cpp">
+			<Option target="15__BuilderFacets"/>
+		</Unit>
+		<Unit filename="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/Person.h">
+			<Option target="15__BuilderFacets"/>
+		</Unit>
+		<Unit filename="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/PersonAddressBuilder.h">
+			<Option target="15__BuilderFacets"/>
+		</Unit>
+		<Unit filename="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/PersonBuilder.cpp">
+			<Option target="15__BuilderFacets"/>
+		</Unit>
+		<Unit filename="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/PersonBuilder.h">
+			<Option target="15__BuilderFacets"/>
+		</Unit>
+		<Unit filename="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/PersonJobBuilder.h">
+			<Option target="15__BuilderFacets"/>
+		</Unit>
+		<Unit filename="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/main.cpp">
+			<Option target="15__BuilderFacets"/>
+		</Unit>
+		<Unit filename="/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

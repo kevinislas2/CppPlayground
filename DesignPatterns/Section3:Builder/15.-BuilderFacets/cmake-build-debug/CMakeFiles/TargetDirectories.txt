@@ -1,0 +1,3 @@
+/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/CMakeFiles/15__BuilderFacets.dir
+/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,26 @@
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e7385/fast 
+/usr/bin/make -f CMakeFiles/cmTC_e7385.dir/build.make CMakeFiles/cmTC_e7385.dir/build
+make[1]: Entering directory '/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_e7385.dir/build.make:64: *** target pattern contains no '%'.  Stop.
+make[1]: Leaving directory '/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_e7385/fast' failed
+make: *** [cmTC_e7385/fast] Error 2
+
+
+
+Detecting CXX [-std=c++1z] compiler features failed to compile with the following output:
+Change Dir: /home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fc206/fast 
+/usr/bin/make -f CMakeFiles/cmTC_fc206.dir/build.make CMakeFiles/cmTC_fc206.dir/build
+make[1]: Entering directory '/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_fc206.dir/build.make:64: *** target pattern contains no '%'.  Stop.
+make[1]: Leaving directory '/home/joe/Documents/playground/DesignPatterns/Section3:Builder/15.-BuilderFacets/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_fc206/fast' failed
+make: *** [cmTC_fc206/fast] Error 2
+
+
+
