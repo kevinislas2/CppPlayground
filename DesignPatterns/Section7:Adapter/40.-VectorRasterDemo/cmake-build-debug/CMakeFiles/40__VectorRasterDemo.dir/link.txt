@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/40__VectorRasterDemo.dir/AdapterVisual.cpp.o CMakeFiles/40__VectorRasterDemo.dir/AdapterVisualDlg.cpp.o  -o 40__VectorRasterDemo 

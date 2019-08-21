@@ -1,0 +1,26 @@
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /home/joe/Documents/playground/DesignPatterns/Section7:Adapter/40.-VectorRasterDemo/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_64834/fast 
+/usr/bin/make -f CMakeFiles/cmTC_64834.dir/build.make CMakeFiles/cmTC_64834.dir/build
+make[1]: Entering directory '/home/joe/Documents/playground/DesignPatterns/Section7:Adapter/40.-VectorRasterDemo/cmake-build-debug/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_64834.dir/build.make:64: *** target pattern contains no '%'.  Stop.
+make[1]: Leaving directory '/home/joe/Documents/playground/DesignPatterns/Section7:Adapter/40.-VectorRasterDemo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_64834/fast' failed
+make: *** [cmTC_64834/fast] Error 2
+
+
+
+Detecting CXX [-std=c++1z] compiler features failed to compile with the following output:
+Change Dir: /home/joe/Documents/playground/DesignPatterns/Section7:Adapter/40.-VectorRasterDemo/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a205f/fast 
+/usr/bin/make -f CMakeFiles/cmTC_a205f.dir/build.make CMakeFiles/cmTC_a205f.dir/build
+make[1]: Entering directory '/home/joe/Documents/playground/DesignPatterns/Section7:Adapter/40.-VectorRasterDemo/cmake-build-debug/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_a205f.dir/build.make:64: *** target pattern contains no '%'.  Stop.
+make[1]: Leaving directory '/home/joe/Documents/playground/DesignPatterns/Section7:Adapter/40.-VectorRasterDemo/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_a205f/fast' failed
+make: *** [cmTC_a205f/fast] Error 2
+
+
+

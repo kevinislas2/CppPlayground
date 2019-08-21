@@ -1,0 +1,81 @@
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b9e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b9e3.dir/build.make CMakeFiles/cmTC_2b9e3.dir/build
+make[1]: Entering directory '/home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_2b9e3.dir/build.make:64: *** target pattern contains no '%'.  Stop.
+make[1]: Leaving directory '/home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2b9e3/fast' failed
+make: *** [cmTC_2b9e3/fast] Error 2
+
+
+
+Detecting CXX [-std=c++1z] compiler features failed to compile with the following output:
+Change Dir: /home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e77e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e77e7.dir/build.make CMakeFiles/cmTC_e77e7.dir/build
+make[1]: Entering directory '/home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_e77e7.dir/build.make:64: *** target pattern contains no '%'.  Stop.
+make[1]: Leaving directory '/home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e77e7/fast' failed
+make: *** [cmTC_e77e7/fast] Error 2
+
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_965fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_965fd.dir/build.make CMakeFiles/cmTC_965fd.dir/build
+make[1]: Entering directory '/home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_965fd.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_965fd.dir/CheckSymbolExists.c.o   -c /home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_965fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_965fd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_965fd.dir/CheckSymbolExists.c.o  -o cmTC_965fd 
+CMakeFiles/cmTC_965fd.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_965fd.dir/build.make:97: recipe for target 'cmTC_965fd' failed
+make[1]: *** [cmTC_965fd] Error 1
+make[1]: Leaving directory '/home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_965fd/fast' failed
+make: *** [cmTC_965fd/fast] Error 2
+
+File /home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d47a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d47a.dir/build.make CMakeFiles/cmTC_3d47a.dir/build
+make[1]: Entering directory '/home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d47a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3d47a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3d47a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d47a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_3d47a.dir/CheckFunctionExists.c.o  -o cmTC_3d47a -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3d47a.dir/build.make:97: recipe for target 'cmTC_3d47a' failed
+make[1]: *** [cmTC_3d47a] Error 1
+make[1]: Leaving directory '/home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3d47a/fast' failed
+make: *** [cmTC_3d47a/fast] Error 2
+
+

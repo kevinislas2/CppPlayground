@@ -1,0 +1,3 @@
+/home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/rebuild_cache.dir
+/home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/runTests.dir
+/home/joe/Documents/playground/DesignPatterns/Section6:Singleton/33.-TestabilityIssues/CMakeFiles/edit_cache.dir

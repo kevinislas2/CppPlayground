@@ -1,0 +1,3 @@
+/home/joe/Documents/playground/DesignPatterns/Section6:Singleton/34.-SingletonInDependencyInjection/CMakeFiles/rebuild_cache.dir
+/home/joe/Documents/playground/DesignPatterns/Section6:Singleton/34.-SingletonInDependencyInjection/CMakeFiles/runTests.dir
+/home/joe/Documents/playground/DesignPatterns/Section6:Singleton/34.-SingletonInDependencyInjection/CMakeFiles/edit_cache.dir

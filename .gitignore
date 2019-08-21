@@ -1,1 +1,7 @@
 *.gch
+*.out
+.vscode/
+cmake-build-debug/
+vcxproj.*
+*.sln
+.idea/

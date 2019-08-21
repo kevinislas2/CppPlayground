@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joe/Documents/playground/DesignPatterns/Section6:Singleton/34.-SingletonInDependencyInjection/main.cpp
+iostream
+-
+map
+-
+fstream
+-
+string
+-
+vector
+-
+boost/lexical_cast.hpp
+-
+gtest/gtest.h
+-
+gmock/gmock.h
+-
+

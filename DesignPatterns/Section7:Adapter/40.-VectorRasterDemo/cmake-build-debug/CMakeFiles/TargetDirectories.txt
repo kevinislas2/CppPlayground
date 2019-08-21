@@ -1,0 +1,3 @@
+/home/joe/Documents/playground/DesignPatterns/Section7:Adapter/40.-VectorRasterDemo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/joe/Documents/playground/DesignPatterns/Section7:Adapter/40.-VectorRasterDemo/cmake-build-debug/CMakeFiles/40__VectorRasterDemo.dir
+/home/joe/Documents/playground/DesignPatterns/Section7:Adapter/40.-VectorRasterDemo/cmake-build-debug/CMakeFiles/edit_cache.dir
